@@ -1,8 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/hiface_frontend/node_modules
-/hiface_backend/node_modules
+/client/node_modules
+/server/node_modules
 /.pnp
 .pnp.js
 
@@ -10,8 +10,7 @@
 /coverage
 
 # production
-/hiface_frontend/build
-/hiface_backend/build
+/client/build
 
 # misc
 .DS_Store
