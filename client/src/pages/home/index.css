@@ -10,6 +10,18 @@
   color: #1890ff;
 }
 
+#components-layout-demo-custom-trigger .logoutIcon {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .logoutIcon:hover {
+  color: #1890ff;
+}
+
 #components-layout-demo-custom-trigger .logo_full {
   width: 100%;
   max-width: 200px;

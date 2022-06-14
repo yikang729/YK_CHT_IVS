@@ -110,10 +110,3 @@ export default function Signin() {
     </Layout>
   )
 }
-
-// style={{
-//   backgroundImage: `url(${loginBG})`,
-//   backgroundRepeat: "no-repeat",
-//   backgroundSize: "contain",
-//   opacity: "0.8",
-// }}

@@ -3,7 +3,7 @@ import Home from '../pages/home'
 import Signin from '../pages/signin'
 
 // 路由表
-export default [
+const routerTable = [
     {
         path:'/signin',
         element: <Signin/>
@@ -13,7 +13,9 @@ export default [
         element: <Home/>
     },
     {
-        path:'/',
+        path:'*',
         element: <Navigate to="/signin"/>
     }
 ]
+
+export default routerTable
